@@ -1,11 +1,9 @@
 class planet:
-    def __init__(self, x, y, color, ratio, x_rotation, y_rotation, ratio_rotation):
+    def __init__(self, x, y, color, ratio, masa, vx, vy):
         self.x = x
         self.y = y
-        self.velocidadx = 0
-        self.velocidady = 0
+        self.vx = vx
+        self.vy = vy
         self.color = color
         self.ratio = ratio
-        self.xrot = x_rotation
-        self.yrot = y_rotation
-        self.ratiorot = ratio_rotation
+        self.masa = masa
